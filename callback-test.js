@@ -23,5 +23,5 @@ function getResult(user){
     return `success register ${user.name}`;
 }
 
-const result = register({email: "sex@test.com", password:"1234", "name": "sex"});
+const result = register({email: "525@test.com", password:"1234", "name": "525"});
 console.log(result);

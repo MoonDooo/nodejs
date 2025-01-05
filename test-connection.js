@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb');
 
-const uri = "mongodb+srv://moondooo:twx1v7CbQMPZ2Kxj@cluster0.um0vi.mongodb.net/myFirstDatabse?retryWrites=true&w=majority";
+const uri = "";
 
 const client = new MongoClient(uri);
 

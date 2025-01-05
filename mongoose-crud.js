@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());// Http에서 Body를 파싱하기 위한 설정
 app.listen(3000, async() => {
     console.log("Server started");
-    const mongodbUri = "mongodb+srv://moondooo:twx1v7CbQMPZ2Kxj@cluster0.um0vi.mongodb.net/test?retryWrites=true&w=majority";
+    const mongodbUri = "";
 
     mongoose
         .connect(mongodbUri) 
